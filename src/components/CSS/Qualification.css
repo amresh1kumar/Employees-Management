@@ -1,0 +1,21 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.qualtification{
+   border-bottom: 1px solid red;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-top: 5px;
+}
+.qualtification input{
+   width: 300px;
+   margin-right: 20px;
+   padding: 10px;
+}
+.qualtification input::placeholder{
+   font-size: 1rem;
+   text-transform: capitalize
+}
