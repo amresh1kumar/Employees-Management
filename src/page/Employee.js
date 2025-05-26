@@ -22,29 +22,29 @@ const App = () => (
   >
     <div className="employee">
       <Form.Item
-        label={<label className="custom-label">Employee ID</label>}
+        label={<label className="custom-label">Employee Number</label>}
         name="Employee ID"
-        rules={[{ required: true, message: "Please Input Employee ID!" }]}
+        rules={[{ required: true, message: "Please Input Employee Number!" }]}
       >
-        <Input placeholder="Enter Employee ID" />
+        <Input placeholder="Enter Employee Number" />
       </Form.Item>
 
       <Form.Item
-        label={<label className="custom-label">First Name </label>}
+        label={<label className="custom-label"> Employee First Name </label>}
         name="First Name"
         rules={[{ required: true, message: "Please Input Employee First Name!" }]}
       >
         <Input placeholder="Enter employee name" />
       </Form.Item>
       <Form.Item
-        label={<label className="custom-label">Middle Name</label>}
+        label={<label className="custom-label"> Employee Middle Name</label>}
         name="Middle Name"
         rules={[{ required: false, message: "Please Input Employee Last Name!" }]}
       >
         <Input placeholder="Enter employee middle name" />
       </Form.Item>
       <Form.Item
-        label={<label className="custom-label">Last Name</label>}
+        label={<label className="custom-label"> Employee Last Name</label>}
         name="Last Name"
         rules={[{ required: true, message: "Please Input Employee Last Name!" }]}
       >
@@ -62,7 +62,7 @@ const App = () => (
       <Form.Item
         name="Gender"
         label={<label className="custom-label">Gender</label>}
-         rules={[{ required: true, message: "Please Select Employee Gender!" }]}
+        rules={[{ required: true, message: "Please Select Employee Gender!" }]}
       >
         <Radio.Group>
           <Radio value="Male">Male</Radio>
@@ -96,7 +96,7 @@ const App = () => (
           { required: true, message: "Please Input Employee Temporary Address!" },
         ]}
       >
-        <Input placeholder="Please Input Employee Temporary Address!"/>
+        <Input placeholder="Please Input Employee Temporary Address!" />
       </Form.Item>
     </div>
 

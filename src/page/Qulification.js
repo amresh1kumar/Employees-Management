@@ -22,7 +22,54 @@ const App = () => (
       autoComplete="off"
       layout="vertical"
     >
+
+
       <div className="qualtification" style={{ marginTop: "50px" }}>
+        <Form.Item
+          label={<label className="custom-label">Qualtification 1</label>}
+          name="Qualtification1"
+          rules={[{ required: true, message: "Please input your Qualtification 1!" }]}
+
+        >
+          <Input type="text" placeholder="Enter Qualtification 1" />
+        </Form.Item>
+        <Form.Item
+          label={<label className="custom-label"> Qualtification 2</label>}
+          name="Board/University1"
+          rules={[
+            { required: false, message: "Please input your Qualtification 2!" },
+          ]}
+        >
+          <Input type="text" placeholder="Enter Qualtification 2" />
+        </Form.Item>
+
+        <Form.Item
+          label={<label className="custom-label">Qualtification 3</label>}
+          name="Subject1"
+          rules={[{ required: false, message: "Please input your Qualtification 3!" }]}
+        >
+          <Input type="text" placeholder="Enter Qualtification 3" />
+        </Form.Item>
+        <Form.Item
+          label={<label className="custom-label">Qualtification 4</label>}
+          name="Passing Year1"
+          rules={[
+            { required: false, message: "Please input your Qualtification 4!" },
+          ]}
+        >
+          <Input type="text" placeholder="Enter Qualtification 4" />
+        </Form.Item>
+        <Form.Item
+          label={<label className="custom-label">Qualtification 5</label>}
+          name="Percentage1"
+          rules={[
+            { required: false, message: "Please input your Qualtification 5!" },
+          ]}
+        >
+          <Input type="text" placeholder="Enter Qualtification 5" />
+        </Form.Item>
+      </div>
+      {/* <div className="qualtification" style={{ marginTop: "50px" }}>
         <Form.Item
           label={<label className="custom-label">Secondary</label>}
           name="Secondary1"
@@ -67,6 +114,7 @@ const App = () => (
           <Input type="text" placeholder="Enter your Percentage" />
         </Form.Item>
       </div>
+      
       <div className="qualtification">
         <Form.Item
           label={<label className="custom-label"> Senior Secondary</label>}
@@ -252,7 +300,7 @@ const App = () => (
         >
           <Input type="text" placeholder="Enter your Percentage" />
         </Form.Item>
-      </div>
+      </div> */}
 
       <Form.Item name="remember" valuePropName="checked" label={null}>
         <Checkbox>Remember me</Checkbox>
