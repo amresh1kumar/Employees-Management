@@ -5,8 +5,8 @@ import { DatePicker } from "antd";
 import { Button, Checkbox, Form, Input, Radio } from "antd";
 
 const App = () => {
-  const [form] = Form.useForm();
 
+  const [form] = Form.useForm();
   const onFinish = (values) => {
     console.log("Success:", values);
     localStorage.setItem("employeeNumber", values.employeeNumber.trim())
