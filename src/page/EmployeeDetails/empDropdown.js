@@ -17,9 +17,8 @@ const App = () => {
           key: "2",
           label: (
             <Link
-              className={`menu-items ${
-                isActive("/Layout") ? "active-link" : ""
-              }`}
+              className={`menu-items ${isActive("/Layout") ? "active-link" : ""
+                }`}
               to="/Layout"
             >
               Personal Details
@@ -30,9 +29,8 @@ const App = () => {
           key: "3",
           label: (
             <Link
-              className={`menu-items ${
-                isActive("/Layout/Contact") ? "active-link" : ""
-              }`}
+              className={`menu-items ${isActive("/Layout/Contact") ? "active-link" : ""
+                }`}
               to="/Layout/Contact"
             >
               Contact Details
@@ -43,9 +41,8 @@ const App = () => {
           key: "4",
           label: (
             <Link
-              className={`menu-items ${
-                isActive("/Layout/Qualification") ? "active-link" : ""
-              }`}
+              className={`menu-items ${isActive("/Layout/Qualification") ? "active-link" : ""
+                }`}
               to="/Layout/Qualification"
             >
               Qualification
@@ -56,15 +53,39 @@ const App = () => {
           key: "5",
           label: (
             <Link
-              className={`menu-items ${
-                isActive("/Layout/Family") ? "active-link" : ""
-              }`}
+              className={`menu-items ${isActive("/Layout/Family") ? "active-link" : ""
+                }`}
               to="/Layout/Family"
             >
               Family Details
             </Link>
           ),
         },
+        // {
+        //   key: "6",
+        //   label: (
+        //     <Link
+        //       className={`menu-items ${isActive("/Layout/Nomination") ? "active-link" : ""
+        //         }`}
+        //       to="/Layout/Nomination"
+        //     >
+        //       Nomination
+        //     </Link>
+        //   ),
+        // },
+
+        // {
+        //   key: "7",
+        //   label: (
+        //     <Link
+        //       className={`menu-items ${isActive("/Layout/Intial") ? "active-link" : ""
+        //         }`}
+        //       to="/Layout/Intial"
+        //     >
+        //       Intial
+        //     </Link>
+        //   ),
+        // },
       ],
     },
   ];

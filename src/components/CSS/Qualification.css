@@ -3,7 +3,7 @@
    padding: 0;
 }
 
-.qualtification{
+.qualification{
    /* border-bottom: 1px solid red; */
    display: flex;
    flex-direction: column;
@@ -11,12 +11,12 @@
    width: 100%;
    margin-top: 5px;
 }
-.qualtification input{
-   width: 300px;
-   margin-right: 20px;
-   padding: 10px;
+.qualification input{
+   width: 300px  !important;
+   margin-right: 20px !important;
+   padding: 10px !important;
 }
-.qualtification input::placeholder{
+.qualification input::placeholder{
    font-size: 1rem;
    text-transform: capitalize
 }

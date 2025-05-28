@@ -10,6 +10,8 @@ import OfficeDetails from "./page/office/Office";
 import MyProfile from "./page/User Profile/MyProfile";
 import EditProfile from "./page/User Profile/EditProfile";
 import ChangePassword from "./page/User Profile/ChangePassword";
+import Nomination from "./page/Nomination ";
+import Intial from "./page/Intial"
 
 //Admin Login
 import LandingPage from "./page/Admin/LandingPage";
@@ -47,6 +49,8 @@ function App() {
           <Route path="Family" element={<FamilyDetails />} />
           <Route path="Office" element={<OfficeDetails />} />
           <Route path="Qualification" element={<Qualification />} />
+          <Route path="Nomination" element={<Nomination />} />
+          <Route path="Intial" element={<Intial />} />
           <Route path="UserProfile" element={<MyProfile />} />
           <Route path="EditProfile" element={<EditProfile />} />
           <Route path="ChangePassword" element={<ChangePassword />} />
